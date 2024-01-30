@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="src/css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <title>Áudio Book</title>
+  </head>
+  <body>
+    <div class="container-aplicativo">
+      <img src="src/images/guns.jpg" alt="capa do disco guns" />
+      <div id="informacoes-faixa">
+        <p id="faixa">Faixa 1</p>
+        <p id="nome-autor">Guns 'N Roses - Use Your Illusion I</p>
+      </div>
+
+      <audio src="src/books/guns/1.mp3" id="audio-faixa"></audio>
+
+      <div id="container-botoes">
+        <button class="bi bi-skip-backward-fill" id="anterior"></button>
+        <button class="bi bi-play-circle-fill" id="play-pause"></button>
+        <button class="bi bi-skip-forward-fill" id="proximo"></button>
+      </div>
+    </div>
+
+    <script src="src/js/script.js"></script>
+  </body>
+</html>
